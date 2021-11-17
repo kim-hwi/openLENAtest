@@ -45,7 +45,7 @@ public abstract class LenaInstaller implements Installer {
 	 * @param installerCommandType command
 	 * @param installerServerType serverType
 	 */
-	public LenaInstaller(InstallerCommandType installerCommandType, InstallerServerType installerServerType) {
+	protected LenaInstaller(InstallerCommandType installerCommandType, InstallerServerType installerServerType) {
 		this.installerCommandType = installerCommandType;
 		this.installerServerType = installerServerType;
 	}
