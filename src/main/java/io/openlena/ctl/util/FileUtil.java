@@ -108,13 +108,27 @@ public class FileUtil {
 		}
 
 		// remove all permissions
-		file.setReadable(false, false);
-		file.setWritable(false, false);
-		file.setExecutable(false, false);
+		if(!file.setReadable(false, false)){
+			return;
+		}
+
+		if(!file.setWritable(false, false)){
+			return;
+		}
+
+		if(!file.setExecutable(false, false)){
+			return;
+		}
+
 
 		// Grant read & write to owner
-		file.setReadable(true, true);
-		file.setWritable(true, true);
+		if(!file.setReadable(true, true)){
+			return;
+		}
+
+		if(!file.setWritable(true, true)){
+			return;
+		}
 
 		if(file.isDirectory()){
 			file.setExecutable(true, true);
