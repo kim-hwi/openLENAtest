@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<release>
+	<date>2021-05-31</date>
+	<version>0.1.0</version>
+	<type>lena</type>
+	<depot>
+		<modules>
+			<module>
+				<id>lena-was</id>
+				<version>0.1.0</version>
+			</module>
+		</modules>
+	</depot>
+</release>

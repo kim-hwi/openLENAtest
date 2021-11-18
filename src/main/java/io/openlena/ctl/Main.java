@@ -30,12 +30,15 @@ public class Main {
 	public static void main(String[] args) {
 
 		List<String> commandList = new ArrayList<String>();
-
+		System.out.println(args);
 		for (String tmp : args) {
+			//args 명령어를 for문을 통해 입력
 			commandList.add(tmp);
 		}
-
+		System.out.println("main");
 		if (commandList.size() < 2) {
+			//명령어의 size가 2이하일 때 종료
+			System.out.println("fin"+commandList);
 			System.exit(1);
 		}
 

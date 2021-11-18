@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<install>
+    
+  <servers>
+      
+    <server>
+      <id>was_8080</id>
+      <port>8080</port>
+      <type>lena-was</type>
+      <path>/Users/kimhwi/Documents/Programming/lena-ctl/lena-was-open-edition-0.1.0-linux/servers/was_8080</path>
+      <cdate>20211118100753683</cdate>
+      <udate>20211118100753683</udate>
+    </server>
+  </servers>
+          
+  <modules>
+                    
+    <module>
+                              
+      <id>lena-ctl</id>
+                              
+      <version>0.1.0</version>
+                      
+    </module>
+            
+  </modules>
+  
+</install>
